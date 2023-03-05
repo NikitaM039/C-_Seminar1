@@ -48,6 +48,6 @@ for (int j = 0; j < matrix.GetLength(1); j++)
         columnSum = (columnSum + matrix[i, j]);
     }
     columnSum = columnSum / row;
-    Console.Write(columnSum + "; ");
+    Console.Write(Math.Round(columnSum, 2) + "; ");
 }
 
