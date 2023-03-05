@@ -22,3 +22,9 @@ for (int i = 0; i < n; i++)
 }
 Console.WriteLine($"[{string.Join(", ", a)}]");
 Console.WriteLine($"{count}");
+
+// или
+
+// Console.WriteLine("Введите числа через пробел и нажмите enter:");
+// int ans = Console.ReadLine()!.Split().Count(n => Int32.Parse(n) > 0);
+// Console.WriteLine(ans);
